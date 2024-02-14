@@ -21,18 +21,16 @@ export default function Home() {
             "pr-0 md:pr-24 lg:pr-36 xl:pr-56 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-1 md:mr-10 lg:mr-40 2xl:mr-60 my-4 md:my-6 lg:my-10 2xl:my-20"
           }
         >
-          <div className="w-64 md:w-80">
+          {/* <div className="w-64 md:w-80">
             <img className="float-right mb-10" src="/Kylee_Portrait.png"></img>
-          </div>
+          </div> */}
           <div
             className={
               "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
             }
           >
             <h2 className={styles.line_height}>
-              Greetings,
-              <br />
-              I'm Kylee 👋
+              Website under construction
             </h2>{" "}
           </div>
           <p
@@ -40,37 +38,35 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22"
             }
           >
-            I'm a developer advocate and community manager.
-            <br />
-            Overall, I enjoy enabling developers to build cool stuff & pushing tech ecosystems forward! 🌈
+            See Kylee's <a className={'underline'} href="https://communaltech.notion.site/">portfolio</a> to view her work with technical communities and developer relations.
           </p>
-          <div className={styles.secondary_button}>
+          {/* <div className={styles.secondary_button}>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48#689c90baae9a47dcb4dcb23ed6c11ae2">
               Learn more about Kylee <br />
             </a>
-          </div>
-          <button className={styles.primary_button}>
+          </div> */}
+          {/* <button className={styles.primary_button}>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48">
               {" "}
-              View Projects{" "}
+              View Portfolio{" "}
             </a>
-          </button>
+          </button> */}
         </main>
       </section>
 
-      <section id={"about_section"}>
+      {/* <section id={"about_section"}>
         <About />
-      </section>
+      </section> */}
 
-      <section id={"socials_section"}>
+      {/* <section id={"socials_section"}>
         <Socials />
-      </section>
+      </section> */}
     </div>
   );
 }

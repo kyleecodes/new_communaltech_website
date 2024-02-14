@@ -11,7 +11,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="center">Communal Tech | 2023 </div>
+          <div className="center">Communal Tech | 2024 </div>
         </a>
       </div>
     </footer>

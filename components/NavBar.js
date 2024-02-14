@@ -28,38 +28,38 @@ function Navbar() {
                   <a href="/" className="py-4 px-2">
                     HOME
                   </a>
-                  <a
+                  {/* <a
                     href="/#about_section"
                     className="py-4 px-2 transition duration-300"
                   >
                     ABOUT
-                  </a>
+                  </a> */}
                   <a
                     href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48#9d1c94f8f82c4781b8e7befcd8fb9189"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-4 px-2 transition duration-300"
                   >
-                    PROJECTS
+                    PORTFOLIO
                   </a>
-                  <a
+                  {/* <a
                     href="/#socials_section"
                     className="py-4 px-2 transition duration-300"
                   >
                     SOCIALS
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/blog"
                     className="py-4 px-2 transition duration-300"
                   >
                     BLOG
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="hidden md:flex items-center space-x-3 ">
                 <a
                   target="_blank"
-                  href="https://form.typeform.com/to/vOzyqBjF?typeform-source=blljhazo9cp.typeform.com"
+                  href="https://www.notion.so/communaltech/Kylee-Fields-CV-Portfolio-0730bd5aa6a24f6d9e91b895e56cee48?pvs=4#43ff9ececeaa41f499af368007375e41"
                   rel="noopener noreferrer"
                   className="py-2 px-2 rounded transition duration-300"
                 >
@@ -93,36 +93,36 @@ function Navbar() {
                   rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300"
                 >
-                  Projects
+                  Portfolio
                 </a>
               </li>
               <li>
-                <a
+                {/* <a
                   href="/#about_section"
                   className="block text-sm px-2 py-4 transition duration-300"
                   onClick={() => setToggle(!toggle)}
                 >
                   About
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="/#socials_section"
                   className="block text-sm px-2 py-4 transition duration-300"
                   onClick={() => setToggle(!toggle)}
                 >
                   Socials
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="/blog"
                   className="block text-sm px-2 py-4 transition duration-300"
                   onClick={() => setToggle(!toggle)}
                 >
                   Blog
-                </a>
+                </a> */}
               </li>
               <li>
                 <a
                   target="_blank"
-                  href="https://form.typeform.com/to/vOzyqBjF?typeform-source=blljhazo9cp.typeform.com"
+                  href="https://www.notion.so/communaltech/Kylee-Fields-CV-Portfolio-0730bd5aa6a24f6d9e91b895e56cee48?pvs=4#43ff9ececeaa41f499af368007375e41"
                   rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300 font-bold"
                 >
